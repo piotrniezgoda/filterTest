@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test filter</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js" async></script>
+</head>
+<body>
+	<div class="select-bar">
+		<div class="filter-box">
+			<h2 class="effect-title">blur</h2>
+			<input id="blur" class="range-input" type="range" min="0" max="100" value="0">
+		</div>
+		<div class="filter-box">
+			<h2 class="effect-title">brightness</h2>
+			<input id="bright" class="range-input" type="range" min="0" max="200" value= "100">
+		</div>
+		<div class="filter-box">
+			<h2 class="effect-title">contrast</h2>
+			<input id="contrast" class="range-input" type="range" min="0" max="200" value= "100">
+		</div>
+		<div class="filter-box">
+			<h2 class="effect-title">grayscale</h2>
+			<input id="gray" class="range-input" type="range" min="0" max="100" value="0">
+		</div>
+		<div class="filter-box">
+			<h2 class="effect-title">hue-rotate</h2>
+			<input id="hue" class="range-input" type="range" min="0" max="360" value="0">
+		</div>
+		<div class="filter-box">
+			<h2 class="effect-title">invert</h2>
+			<input id="invert" class="range-input" type="range" min="0" max="100" value="0">
+		</div>
+		<div class="filter-box">
+			<h2 class="effect-title">opacity</h2>
+			<input id="opacity" class="range-input" type="range" min="0" max="100" value="100">
+		</div>
+		<div class="filter-box">
+			<h2 class="effect-title">saturate</h2>
+			<input id="saturate" class="range-input" type="range" min="0" max="100" value="100">
+		</div>
+		<div class="filter-box">
+			<h2 class="effect-title">sepia</h2>
+			<input id="sepia" class="range-input" type="range" min="0" max="100" value="0">
+		</div>
+
+		<button type="button" id="reset" class="reset-btn">reset</button>
+	</div>
+	<div class="image-container">
+		<img class="image" src="img/image.jpg" alt="test image">
+		<span class="filter-res" id="filterResoult"></span>
+	</div>
+	
+	
+</body>
+</html>
